@@ -1,0 +1,14 @@
+{
+  "name": "beer-record",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "python -m SimpleHTTPServer",
+    "createRecord": "node ./csv/createRecord.js"
+  },
+  "devDependencies": {
+    "csvtojson": "^1.1.4",
+    "jsonfile": "^2.4.0"
+  }
+}
